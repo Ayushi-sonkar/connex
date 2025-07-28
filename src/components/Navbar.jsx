@@ -18,7 +18,7 @@ const Navbar = () => {
       )}
       
       <nav className='w-full flex py-6 justify-between items-center navbar relative z-50'>
-        <img src={logo} alt='hoobank' className='w-[124px] h-[32px]'/>
+        <img src={logo} alt='hoobank' className='w-[250px] h-[65px] rounded-[10px]'/>
         <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
           {navLinks.map((nav, index) => (
             <li

@@ -4,7 +4,7 @@ import { features } from '../constants'
 import styles from '../style'
 
 const ServiceCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-col p-6 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card bg-black-gradient-2`}>
+  <div className={`flex flex-col p-6 rounded-[20px] h-full bg-black-gradient-2 ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue mb-4`}>
       <img
         src={icon}
@@ -20,6 +20,7 @@ const ServiceCard = ({ icon, title, content, index }) => (
     </p>
   </div>
 )
+
 
 const DetailedServiceCard = ({ title, description, features }) => (
   <div className='bg-black-gradient-2 rounded-[20px] p-8 mb-8'>
