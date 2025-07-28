@@ -21,17 +21,10 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "services",
+    title: "Services",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+ 
 ];
 
 export const features = [
@@ -40,7 +33,8 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Loyalty means more with us. Our Rewards Program turns every recharge, bill payment, and referral into perks, cashback, and premium benefits.",
+
   },
   {
     id: "feature-2",
@@ -52,9 +46,9 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Easy Plan Switching",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Highlight how customers can switch between plans effortlessly without losing data or service.",
   },
 ];
 
@@ -62,7 +56,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Connex helped secure our network and improved performance. Great team and service!",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -70,7 +64,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Reliable, efficient, and easy to work with. Connex delivered exactly what we needed.",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -78,7 +72,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Professional and proactive—Connex made our IT setup stress-free.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
@@ -98,10 +92,36 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Clients using Our Services",
+    value: "75000+",
+  },
+  {
+    id: "stats-4",
+    title: "Endpoints",
+    value: "150,000+",
+  },
+  {
+    id: "stats-5",
+    title: "Agents",
+    value: "75000+",
+  },
+  {
+    id: "stats-6",
+    title: "Years in the Industry",
+    value: "25+",
+  },
+  {
+    id: "stats-7",
+    title: "Employees",
+    value: "600+",
+  },
+  {
+    id: "stats-8",
+    title: "Offices Across North America",
+    value: "14+",
   },
 ];
+
 
 export const footerLinks = [
   {
@@ -192,21 +212,4 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+export const clients = [];

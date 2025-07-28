@@ -1,26 +1,25 @@
 import React from 'react'
-import { card } from '../assets'
+import { temp2 } from '../assets'
 import Button from './Button'
 import styles, { layout } from '../style'
 
 const CardDeal = () => {
   return (
     <section className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+      <div className={`${layout.sectionInfo} animate-slideInLeft`}>
+        <h2 className={styles.heading2}>Tailored IT &<br className='sm:block hidden'/>Infrastructure Services to Safeguard Your Network.</h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 animate-fadeIn`}>
+          Protect your network and sensitive business data with Connex IT & Infrastructure services. Our experts can design, develop, and implement solutions best suited to your specific business environment.
         </p>
-        <Button styles='mt-10'/>
+        <div className="hover-scale">
+          <Button styles='mt-10'/>
+        </div>
       </div>
-      <div className={layout.sectionImg}>
+      <div className={`${layout.sectionImg} animate-slideInRight`}>
         <img
-          src={card}
-          alt='card'
-          className='w-[100%] h-[100%]'
+          src={temp2}
+          alt='temp2'
+          className='w-[100%] h-[100%] hover-scale hover-glow'
         />
       </div>
     </section>
